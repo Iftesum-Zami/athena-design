@@ -1,0 +1,28 @@
+.navbar-bg{
+    position: relative;
+    padding: 20px 0;
+}
+
+.navbar-bg::before{
+    position: absolute;
+    display: inline-block;
+    height: 210px;
+    width: 210px;
+    content: "";
+    background: url(../../images/Group101.png) no-repeat 0 0;
+    background-size: 210px 210px;
+    top: -120px;
+    left: -90px;
+}
+
+.navbar-bg::after{
+    position: absolute;
+    background: url(../../images/Group102.png) no-repeat 0 0;
+    display: inline-block;
+    height: 700px;
+    width: 640px;
+    content: "";
+    background-size: 870px 780px;
+    top: -270px;
+    right: 0;
+}
