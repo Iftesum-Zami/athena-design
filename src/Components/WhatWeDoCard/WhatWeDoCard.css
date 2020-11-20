@@ -1,0 +1,5 @@
+ .WhatWeDoCard:hover{
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    box-shadow: 5px 5px 5px 5px lightgray;
+}
