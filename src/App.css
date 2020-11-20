@@ -3,3 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 /* background: linear-gradient(to right, #2af598 0%,#009efd 100%); */
 
+.btnStyle{
+    border: none;
+    color: #fff;
+    background: linear-gradient(135deg, #1DDAB7, #13C6CE, #07ACEE);
+    padding: 11px 30px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+

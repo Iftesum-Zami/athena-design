@@ -18,7 +18,7 @@ const StayRunning = () => {
                             using Lorem Ipsum is that it has a more-or-less normal distribution
                             of letter.
                         </p>
-                        <button>Contact Us</button>
+                        <button className="btnStyle">Contact Us</button>
                     </div>
                 </div>
             </div>
