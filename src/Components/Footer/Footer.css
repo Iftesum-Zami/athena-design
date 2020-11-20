@@ -1,0 +1,32 @@
+/* footer{
+    background-color: #FAFFFD;
+    padding: 50px 0;
+} */
+
+.footer-logo>img{
+    width: 110px;
+    margin-bottom: 15px;
+    padding-top: 8px;
+}
+
+.social-link img{
+    width: 28px;
+    margin-right: 10px;
+}
+
+.footer-col .list-group-item{
+    padding: 0;
+}
+
+.footer-col .list-group-item a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #464646;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.footer-col .list-group-item a:hover{
+    color: #009efd;
+}
