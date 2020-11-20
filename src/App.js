@@ -22,6 +22,9 @@ function App() {
       <DedicatedTeam />
       <GetInTouch />
       <Footer />
+      <WhatWeDo />
+      <StayRunning />
+      <OurAchievement />
     </div>
   );
 }
