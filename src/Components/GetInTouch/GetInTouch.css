@@ -4,7 +4,7 @@
 }
 
 .yeseva-header{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
     font-weight: 400;
     font-size: 38px;
     color: #0D052E;
@@ -16,7 +16,7 @@
     color: #353535;
     opacity: .8;
     text-align: initial;
-    margin-left: 3.2rem;
+    margin-left: 1.5rem;
 }
 .signIn-box{
     width: 100%;
@@ -54,4 +54,18 @@
 
 .signIn-box button[type="submit"]:hover{
     background: linear-gradient(to bottom, #2af598 0%,#009efd 100%);
+}
+
+@media (max-width: 575.98px) {
+    .getInTouch{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .getInTouch{
+        display: flex;
+        justify-content: end;
+    }
 }
