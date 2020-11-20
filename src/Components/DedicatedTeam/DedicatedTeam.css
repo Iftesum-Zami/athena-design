@@ -1,0 +1,59 @@
+.list-group-item{
+    border: 0;
+    padding: 5px;
+}
+
+.singleiteam{
+    padding: 35px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 0.10);
+    border: 2px solid transparent;
+    transition: border .4s;
+}
+
+.singleiteam:hover{
+    border: 2px solid #3CEDCE;
+}
+
+.singleiteam:hover .plan-header{
+    border-bottom: 1px solid transparent;
+}
+
+.singleiteam:hover .order-button{
+    opacity: 1;
+}
+
+.plan-header{
+    font-family: 'Poppins', sans-serif;
+    color: #0F0F0F;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4FD1CB;
+    transition: border-bottom .4s;
+}
+
+.plan-header h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.plan-header p{
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.plan-details{
+    color: #0F0F0F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.order-button{
+    background: linear-gradient(to right, #2af598 0%,#009efd 100%);
+    border: 0;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 25px 0px;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity .4s;
+}
