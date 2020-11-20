@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Header from './Components/Header/Header';
 import WhatWeDo from './Components/WhatWeDo/WhatWeDo';
 import StayRunning from './Components/StayRunning/StayRunning';
+import OurAchievement from './Components/OurAchievement/OurAchievement';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <WhatWeDo />
       <StayRunning />
+      <OurAchievement />
     </div>
   );
 }
