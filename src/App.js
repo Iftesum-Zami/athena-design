@@ -16,12 +16,12 @@ function App() {
     <div>
       <Navbar />
       <Header />
-      <DedicatedTeam />
-      <GetInTouch />
-      <Footer />
       <WhatWeDo />
       <StayRunning />
       <OurAchievement />
+      <DedicatedTeam />
+      <GetInTouch />
+      <Footer />
     </div>
   );
 }
